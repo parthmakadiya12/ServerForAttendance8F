@@ -1,0 +1,23 @@
+{
+  "name": "serverapp",
+  "version": "1.0.0",
+  "description": "this server serves the attendance anagement application created by parth",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon server.js"
+  },
+  "author": "Parth Makadiya",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.16",
+    "nodemailer": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.8"
+  }
+}
